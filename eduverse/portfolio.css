@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    position: fixed;
+    background: #333;
+    color:#fff;
+    padding: 10px 5px;
+}
+.fixed-header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(full_stack_banner.avif);
+    background-position: center;
+    background-size:cover ;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+#ccc :hover{
+    color: red;
+}
+.btn{
+    background-color: darkorange;
+    color: white;
+    border-radius: 50px;
+}
+.hero{
+    color: white;
+    top: 200px;
+    left: 0;
+    position: absolute;
+    transform: translate(50%,30%);
+}
+.gt form input:first-child{
+    display:inline-block ;
+    width:100%;
+    padding:15px 120px 13px 14px;
+    border: 3px solid red;
+    border-radius: 40px;
+
+}
+.gt form input:last-child{
+    display: inline-block;
+    padding:10px 30px;
+    border: none;
+    background-color: red;
+    color:white;
+    top:7px;
+    bottom: 7px;;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+}
+    .about_me{ 
+        width: 100%;
+        padding: 100px 0px;
+        background-color:black;
+
+    }
+       
+    
+    .about_content{
+        color:white;
+        margin-left: 30px;
+    }
+    .main{
+        display: flex;
+    }
+    .about_content h3{
+        font-size: 50px;
+    }
+    .about_content h4{
+        font-size: 30px;
+    }
+    .about_content ul li{
+        font-size: 20px;
+    }
+    .about_content p{
+        font-size:20px ;
+    }
+    .skills{
+        background-color: black;
+        width: 100%;
+    }
+    .tittle h2{
+        color:white;
+        font-size: 60px;
+        text-align: center;
+    }
+    .box{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        height: 300px;
+        width:270px;
+        background-color: gray;
+        border-radius: 25px;
+        margin: 12px;
+    }
+    .card h4{
+        text-align: center;
+    }
+    .ul li{
+        
+        color:pink;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        list-style: none;
+        text-align: center;
+
+    }
+    .ul a{
+        background-color: red;
+        color:white;
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-left: 70px;
+        
+    }
+    .card i{
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        margin: 15px 0px;
+        display: block;
+    }
+    .ul a:hover{
+        background-color: transparent;
+        border: 2px solid red;
+        cursor: pointer;
+    }
+ .fixed-fooder{
+    width: 100%;
+    background: #333;
+    justify-content: center;
+ }
+ .fixed-fooder .aaa{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+ }
+ .fixed-fooder .s-media a{
+width: 40px;
+height: 40px;
+display: inline-flex;
+background: red;
+border-radius: 50%;
+color:white;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+margin:20px 10px;
+font-size: 22px;
+ }
+ .fixed-fooder .s-media a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.reach{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.copy{ 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+ 
+
+
+
+    
+    
+    
+
+
+
